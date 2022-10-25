@@ -12,6 +12,8 @@ int main() {
 
 	//variables
 	
+    int perro = 13;
+    cout << perro;
 
 	//calculator menu
 	cout << "Select one of the symbols or letters below." << endl;
@@ -20,7 +22,9 @@ int main() {
 	cout << "'+' -> sum 2 numbers		'-' -> rest 2 numbers		'*' -> mult 2 numbers		'/' -> div 2 numbers		'sqrt' -> square root of 1 number" << endl;
 	cout << "" << endl;
 	cout << "MODES:" << endl;
-	
+
+    sum(13, 14);
+
 
 	return 0;
 }
