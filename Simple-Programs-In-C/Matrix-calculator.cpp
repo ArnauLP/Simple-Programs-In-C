@@ -1,5 +1,5 @@
 //This program calculates a matrix based on your input
-//This is a version written in C++ (using while)
+//This is a version written in C++ (using for)
 
 #include <iostream>
 using namespace std;
