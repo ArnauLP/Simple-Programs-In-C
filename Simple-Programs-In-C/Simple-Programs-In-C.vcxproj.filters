@@ -18,5 +18,8 @@
     <ClCompile Include="Matrix-calculator.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Matrix-calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

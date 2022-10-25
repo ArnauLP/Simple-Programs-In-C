@@ -1,3 +1,6 @@
+//This program calculates a matrix based on your input
+//This is a version written in C (using for)
+
 #include <stdio.h>
 
 int main() {
@@ -5,8 +8,7 @@ int main() {
     //Variable declarations
     int size;
 
-    printf("INPUT\n");
-    printf("SIZE (2-3)?\n");
+    printf("INPUT YOUR MATRIX SIZE (2-3)?\n");
     scanf("%d", &size);
 
     int t[size][size];
@@ -21,14 +23,14 @@ int main() {
             scanf("%d", &t[i][j]);
         }
     }
-    int calc = 0;
     //calc matrix
+    int calc = 0;
     for (i = 0; i < size; i++) {
         for (j = 0; j < size; j++) {
             calc = calc + t[i][j];
         }
     }
-    printf("suma: %d", calc);
+    printf("sum: %d", calc);
     return 0;
 }
 
